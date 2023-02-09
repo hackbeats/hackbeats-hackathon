@@ -31,6 +31,7 @@
 
 /*Preloader*/
 
+
 .loader {
     background: #111111;
     bottom: 0;
@@ -152,7 +153,7 @@ section.single-hero {
 .background-img {
     background-attachment: scroll;
     background-clip: border-box;
-    background-color: #353031;
+    background-color: #dbc0c500;
     background-image: none;
     background-origin: padding-box;
     background-position: 50% 50% !important;
@@ -164,6 +165,17 @@ section.single-hero {
     top: 0;
     width: 100%;
     z-index: 0;
+    animation: rotateImg 300s linear alternate infinite;
+}
+@keyframes rotateImg {
+    0%
+    {
+        transform: rotate(0) scale(2.5);
+    }
+    100%
+    {
+        transform: rotate(5000deg) scale(2.5);
+    }
 }
 .overlay:before {
     position: absolute;
@@ -1491,4 +1503,9 @@ select.error {
     .block-speaker .row,.judges .row,.schedule .row, .clubs .row .col-sm-12,.aboutdate .row{
         display: block;
     }
+}
+
+.center 
+{
+    align-items: center;
 }
