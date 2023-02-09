@@ -707,6 +707,6 @@ a[href^="https://maps.google.com/maps"] {
     display: none;
 }
 .gmnoprint div {
-    background: none !important;
+    background: none !important;container
 }
 /*End misc */
