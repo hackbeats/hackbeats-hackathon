@@ -1516,7 +1516,7 @@ select.error {
 
 .go-to-top{
     display: inline-block;
-    background-color: #1d303e1e;
+    background-color: #1d303e80;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -1524,7 +1524,7 @@ select.error {
     position: fixed;
     
     bottom: 50px;
-    right: 30px;
+    left: 30px;
     /* transition: background-color .3s, 
       opacity .5s, visibility .5s;
     opacity: 0; */
